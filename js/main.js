@@ -1,5 +1,50 @@
 $(document).ready(function(){     
     
+    //메뉴 스크립트
+    $('.sub_menu_area').hide();
+    var visul = 1;
+
+    $('.header_in').mouseenter(function(){
+        if(visul == 1)//true
+        $('.sub_menu_area').stop().slideDown(200);
+        visul = 0; //반대값 설정
+    });
+
+    $('.sub_menu_area').mouseleave(function(){
+        $(this).stop().slideUp(200);
+        visul = 1;
+    })
+
+    $('.sub_menu_area_text > li').hover(
+        function(){
+            $(this).css({color:'red'})
+        },
+        function(){
+            $(this).css({color:'white'})
+        }
+    )   
+
+    $('.header_in_l a').hover(
+        function(){
+            $(this).css({color:'red'})
+        },
+        function(){
+            $(this).css({color:'white'})
+        }
+    )   
+
+    $('.header_in_r a').hover(
+        function(){
+            $(this).css({color:'red'})
+        },
+        function(){
+            $(this).css({color:'white'})
+        }
+    )   
+    
+    
+    
+    
     // weaving 슬라이드 스크립트
     $('.weaving_text > ul > li').eq(0).addClass('on'); 
 
