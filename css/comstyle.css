@@ -1,0 +1,343 @@
+#header{
+    width: 100%;
+    height: 100px;
+    background-color: #060915;
+}
+
+.header_in{
+    width: 1200px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+}
+
+.header_in_l a:hover{
+    color: red;
+}
+
+.header_in a{
+    color: #fff;
+}
+
+.header_in_l > ul{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    color: #fff;
+}
+
+.header_in_r > ul{
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_in_r_icon{
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_text{
+    width: 1200px;
+    height: 560px;
+    margin: 0 auto;
+    padding-top: 110px;
+    box-sizing: border-box;
+}
+
+.main_text h3{
+    font-size: 64px;
+}
+
+.main_text p{
+    width: 185px;
+    height: 70px;
+    background-color: #060915;
+    margin-top: 80px;
+    font-size: 36px;
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 70px;
+}
+
+/* new 부분 */
+#contents .new{
+    width: 100%;
+    height: 2000px;
+}
+
+#contents .new_img{
+    background: url(../images/apartment.jpg)no-repeat 0 0;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+#contents .new_img_text{
+    width: 1000px;
+    height: 250px;
+    background-color: #d9d9d95d;
+    position: absolute;
+    top: 140px;
+    right: 0;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#contents .new_img_text h4{
+    font-size: 45px;
+    text-align: center;
+}
+
+#contents .new_img_text p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#contents .new_text{
+    width: 100%;
+    height: 1000px;
+    background-color: #060915;
+    padding-top: 200px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#contents .new_text_in{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+#contents .new_text_l{
+    width: 50%;
+    height: 100%;
+}
+
+#contents .new_text_l h4{
+    font-size: 128px;
+}
+
+#contents .new_text_l p{
+    font-size: 23px;
+}
+
+#contents .new_text_r{
+    width: 50%;
+    height: 100%;
+    padding:20px 0 0 50px;
+    box-sizing: border-box;
+}
+
+#contents .new_text_r li{
+    display: flex;
+    line-height: 100px;
+}
+
+
+#contents .new_text_r h5{
+    font-size: 24px;
+}
+
+#contents .new_text_r p{
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+
+/* Technology 부분*/
+#contents .Technology{
+    width: 100%;
+    height: 3000px;
+}
+
+#contents .tec_img{
+    background: url(../images/keyboard-70506_1920.jpg)no-repeat 0 0;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+#contents .tec_img_text{
+    width: 1000px;
+    height: 250px;
+    background-color: #d9d9d95d;
+    position: absolute;
+    top: 140px;
+    right: 0;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#contents .tec_img_text h4{
+    font-size: 45px;
+    text-align: center;
+}
+
+#contents .tec_img_text p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#contents .tec_text{
+    width: 100%;
+    height: 2000px;
+    background-color: #060915;
+    padding-top: 200px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#contents .tec_text_in{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+#contents .tec_text_l{
+    width: 50%;
+    height: 100%;
+}
+
+#contents .tec_text_l h4{
+    font-size: 128px;
+}
+
+#contents .tec_text_l p{
+    font-size: 23px;
+}
+
+#contents .tec_text_r{
+    width: 50%;
+    height: 100%;
+    padding:20px 0 0 50px;
+    box-sizing: border-box;
+}
+
+#contents .tec_text_r li{
+    display: flex;
+    line-height: 100px;
+}
+
+#contents .tec_text_r div{
+    margin-top: 120px;
+}
+
+#contents .tec_text_r h5{
+    font-size: 24px;
+}
+
+#contents .tec_text_r p{
+    font-size: 20px;
+    margin-left: 100px;
+}
+
+
+/* start 부분 */
+#contents .start{
+    width: 100%;
+    height: 4500px;
+}
+
+#contents .start_img{
+    background: url(../images/start-1414148_1920.jpg)no-repeat 0 0;
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+
+#contents .start_img_text{
+    width: 1000px;
+    height: 250px;
+    background-color: #d9d9d95d;
+    position: absolute;
+    top: 140px;
+    right: 0;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+#contents .start_img_text h4{
+    font-size: 45px;
+    text-align: center;
+}
+
+#contents .start_img_text p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+#contents .start_text{
+    width: 100%;
+    height: 3500px;
+    background-color: #060915;
+    padding-top: 200px;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+#contents .start_text_in{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+}
+
+#contents .start_text_l{
+    width: 50%;
+    height: 100%;
+}
+
+#contents .start_text_l h4{
+    font-size: 128px;
+}
+
+#contents .start_text_l p{
+    font-size: 23px;
+}
+
+#contents .start_text_r{
+    width: 50%;
+    height: 100%;
+    padding:20px 0 0 50px;
+    box-sizing: border-box;
+}
+
+#contents .start_text_r li{
+    display: flex;
+    line-height: 100px;
+    white-space: nowrap;
+}
+
+#contents .start_text_r div{
+    margin-top: 120px;
+}
+
+#contents .start_text_r h5{
+    font-size: 24px;
+}
+
+#contents .start_text_r p{
+    font-size: 20px;
+    margin-left: 100px;
+}
